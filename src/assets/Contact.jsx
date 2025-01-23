@@ -24,7 +24,7 @@ export const Contact = ()=>{
                     <h1>Social</h1>
                     <p className="contact-details"><span className='skill-arrow'>➤</span>Facebook/Instagram ~ <span className="contact-at">@arpanm.in/@arpanmFB</span></p>
                     <h1>LinkedIn</h1>
-                    <p className="contact-details">arpanmin <span className="contact-at">(Alwayes active)</span></p>
+                    <p className="contact-details"><span className='skill-arrow'>➤</span>arpanmin <span className="contact-at">(Alwayes active)</span></p>
                     <h1>Address</h1>
                     <p className="contact-details"><span className='skill-arrow'>➤</span>Kolkata, West Bengal, India</p>
                 </div>
