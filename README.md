@@ -2,7 +2,7 @@ Here’s a detailed **README** for your portfolio website:
 
 ---
 
-# **Aritra Naha's Portfolio Website**
+# **Arpan Mandal's Portfolio Website**
 
 ## **Overview**
 This portfolio website showcases Arpan Mandal's skills, experience, projects, and achievements as a passionate tech professional. Designed to highlight both technical expertise and personal qualities, the website serves as a gateway for potential employers, collaborators, and clients to learn more about Aritra's journey and capabilities in software development.
