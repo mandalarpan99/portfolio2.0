@@ -1,7 +1,3 @@
-Here’s a detailed **README** for your portfolio website:
-
----
-
 # **Arpan Mandal's Portfolio Website**
 
 ## **Overview**
