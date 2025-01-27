@@ -1,6 +1,5 @@
 import Container from 'react-bootstrap/Container';
 import { useState, useEffect } from 'react';
-import PreLoader from './Preloader';
 import '../index.css';
 export const Home = ()=>{
     let name = "< Arpan Mandal />";
@@ -46,7 +45,6 @@ export const Home = ()=>{
   }
     return(
         <>
-        {/* <PreLoader /> */}
             <section id="home">
                 <Container>
                 <div className="home-container">
