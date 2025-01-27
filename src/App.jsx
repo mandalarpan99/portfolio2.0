@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
@@ -10,7 +11,9 @@ import { Project } from './assets/Project';
 import { Contact } from './assets/Contact';
 import { Footer } from './assets/Footer';
 const App = ()=> {
-  
+  useEffect(() => {
+    document.title = "Arpan Mandal";
+  }, []);
 
   return (
     <>

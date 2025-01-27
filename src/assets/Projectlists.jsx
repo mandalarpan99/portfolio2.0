@@ -4,14 +4,14 @@ export const Projectlists = [
         projectName: "Car Parking Website",
         projectDes: "Worked with the car parking website",
         projectLink: "https://www.vipparking.se/",
-        projectImage:"images/projectImages/vipparking.png"
+        projectImage:"/car-parking.png"
     },
     {
         id: 2,
         projectName: "ToDo Project",
         projectDes: "A MERN Stack project",
         projectLink: "https://github.com/mandalarpan99/todoproject",
-        projectImage: "images/projectImages/todo.png"
+        projectImage: "/todo.png"
     },
     {
         id: 3,
@@ -20,11 +20,11 @@ export const Projectlists = [
         projectLink: "",
         projectImage: "images/projectImages/vipparking.png"
     },
-    {
-        id: 4,
-        projectName: "Car Parking Website",
-        projectDes: "Worked with the car parking website",
-        projectLink: "",
-        projectImage: "images/projectImages/vipparking.png"
-    }
+    // {
+    //     id: 4,
+    //     projectName: "Car Parking Website",
+    //     projectDes: "Worked with the car parking website",
+    //     projectLink: "",
+    //     projectImage: "images/projectImages/vipparking.png"
+    // }
 ]

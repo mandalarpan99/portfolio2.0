@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import {Row, Col} from 'react-bootstrap';
 export const AboutMe = ()=>{
-    const name = "< About />";
+    const name = "< About Me/>";
     return(
         <>
         <section id='about'>

@@ -1,8 +1,10 @@
 import Container  from "react-bootstrap/Container";
+import { useEffect } from "react";
 import { Row } from "react-bootstrap";
 import { ShowProjects } from "./ShowProjects";
 import {Projectlists} from './Projectlists';
 export const Project = ()=>{
+
     const name = "< Project />";
     return(
         <>  

@@ -1,7 +1,8 @@
 import Container  from "react-bootstrap/Container";
 import {Row, Col} from 'react-bootstrap';
+import Button from 'react-bootstrap/Button';
 export const Contact = ()=>{
-    const name = "< Conatct />"
+    const name = "< Contact />"
     return(
         <>
         <section id="contact">
@@ -15,6 +16,8 @@ export const Contact = ()=>{
                 <Col xs={11} md={6} xl={6}>
                 <div className="contact-des">
                     <p>I am interested in working with any company that thinks my skill will be helpful for them. If you are looking for someone like me, please let me know. Or you can just 'say hi' to me.</p>
+                    {/* <Button variant="outline-success">Resume</Button> */}
+                    <a href="https://drive.google.com/file/d/182pYgdyXCYBfw3cNu-qcVN-L4MLJet_o/view?usp=sharing" className="btn btn-outline-success" target="_blank">Resume</a>
                 </div>
                 </Col>
                 <Col xs={11} md={6} xl={6}>

@@ -1,5 +1,6 @@
 import Container from 'react-bootstrap/Container';
 import { useState, useEffect } from 'react';
+import PreLoader from './Preloader';
 import '../index.css';
 export const Home = ()=>{
     let name = "< Arpan Mandal />";
@@ -45,6 +46,7 @@ export const Home = ()=>{
   }
     return(
         <>
+        {/* <PreLoader /> */}
             <section id="home">
                 <Container>
                 <div className="home-container">
@@ -53,22 +55,22 @@ export const Home = ()=>{
                         <ul className="social-icons">
                         <li>
                             <a href="https://www.facebook.com/arpanmFB/" target="_blank" rel="noopener noreferrer">
-                            <i class="fa-brands fa-facebook"></i>
+                            <i className="fa-brands fa-facebook"></i>
                             </a>
                         </li>
                         <li>
                             <a href="https://www.instagram.com/arpanm.in/" target="_blank" rel="noopener noreferrer">
-                            <i class="fa-brands fa-instagram"></i>
+                            <i className="fa-brands fa-instagram"></i>
                             </a>
                         </li>
                         <li>
                             <a href="https://www.linkedin.com/in/arpanmin/" target="_blank" rel="noopener noreferrer">
-                            <i class="fa-brands fa-linkedin-in"></i>
+                            <i className="fa-brands fa-linkedin-in"></i>
                             </a>
                         </li>
                         <li>
                             <a href="https://github.com/mandalarpan99" target="_blank" rel="noopener noreferrer">
-                            <i class="fa-brands fa-github"></i>
+                            <i className="fa-brands fa-github"></i>
                             </a>
                         </li>
                         {/* <li>
