@@ -479,7 +479,7 @@ footer{
   }
   .home-container{
     display: inline-flex;
-    min-height: 40vh;
+    min-height: 50vh;
   }
   .main-content{
     display: inline;
@@ -493,9 +493,9 @@ footer{
     font-size: 15px;
   }
   .sidebar{
-    width: 100%;
+    width: 90%;
     position: absolute;
-    bottom: 10px;
+    bottom: 320px;
   }
   .follow-me-label{
     writing-mode: horizontal-tb;
@@ -624,7 +624,7 @@ footer{
   }
   .home-container{
     display: inline-flex;
-    min-height: 45vh;
+    min-height: 60vh;
   }
   .main-content{
     display: inline;
@@ -640,7 +640,7 @@ footer{
   .sidebar{
     width: 90%;
     position: absolute;
-    bottom: 450px;
+    bottom: 320px;
   }
   .follow-me-label{
     writing-mode: horizontal-tb;
