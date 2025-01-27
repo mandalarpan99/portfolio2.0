@@ -2,10 +2,9 @@ import { useState, useEffect } from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import Button from 'react-bootstrap/Button';
 import '../index.css';
 
-export const NavBar = ()=> {
+export const Navigation = ()=> {
   const navname = '<AM/>'
   const [isScrolled, setIsScrolled] = useState(false);
 

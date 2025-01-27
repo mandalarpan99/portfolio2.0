@@ -3,7 +3,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { NavBar } from './assets/Navbar';
+import { Navigation } from './assets/Navigation';
 import { Home } from './assets/Home';
 import { AboutMe } from './assets/AboutMe';
 import { Skill } from './assets/Skill';
@@ -29,7 +29,7 @@ const App = ()=> {
       loading ?<Preloader /> :
     
       <>
-      <NavBar />
+      <Navigation />
       <Home />
       <AboutMe />
       <Skill />
