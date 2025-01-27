@@ -13,14 +13,13 @@ This portfolio website showcases Arpan Mandal's skills, experience, projects, an
 - **Custom Favicon and Titles**: Tailored for each page to enhance user experience.
 
 ## **Technologies Used**
-- **Frontend**: React.js, Tailwind CSS
-- **Backend**: Node.js, Express.js (for APIs)
-- **Database**: PostgreSQL (or other applicable databases for project integration)
-- **Styling**: Tailwind CSS for modern and responsive design.
+- **Frontend**: React.js, React libraries 
+- **Backend**: It's a static portfolio website.
+- **Styling**: React libraries and CSS for modern and responsive design.
 - **State Management**: Context API or a modern state management library.
 
 ## **Highlighted Projects**
-1. **AR-Parking Website**:
+1. **Car-Parking Website**:
    - Built with **HTML, CSS, JavaScript, PHP, and MySQL**.
    - Features a booking system for parking spaces with real-time availability and pricing.
 2. **To-Do Project**:
