@@ -6,6 +6,15 @@ import { useState } from 'react';
 import {Col} from 'react-bootstrap';
 export const ShowProjects = (props)=>{
     const [modalShow, setModalShow] = useState(false);
+    const limitWords = (str, wordLimit) => {
+        const words = str.split(" ");
+        return words.length > wordLimit
+          ? words.slice(0, wordLimit).join(" ") + "....."
+          : str;
+      };
+      //console.log(props.projectDesc)
+      const text = props.projectDesc;
+      console.log(text)
     return(
         <>
             {/* <div>
@@ -26,7 +35,7 @@ export const ShowProjects = (props)=>{
                     </div>
                         <div className='Pcard_content'>
                             <h2>{props.projectTitle}</h2>
-                            <h5>{props.projectDesc}</h5>
+                            <h5>{limitWords(text, 10)}</h5>
                             <div className="Pcard_link">
                                 {/* <a href={props.projectLink} className="button" target='_blank'>Project link</a> */}
                                 <button className='project-btn' onClick={() => setModalShow(true)}>Details</button>

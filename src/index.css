@@ -39,6 +39,9 @@
   box-shadow: 0px 5px 10px rgb(75, 75, 75);
   
 }
+.nav-link .active{
+  color: #FFF !important;
+}
 
 .navbar-nav a{
   color: #FFF;
@@ -609,6 +612,9 @@ footer{
   #about{
     margin-bottom: 10%;
   }
+  .modal-body p{
+    font-size: 15px;
+  }
 }
 
 @media  screen and (max-width: 720px) {
@@ -736,6 +742,9 @@ footer{
   }
   #about{
     margin-bottom: 10%;
+  }
+  .modal-body p{
+    font-size: 15px !important;
   }
 }
 
