@@ -25,7 +25,7 @@ export const Contact = ()=>{
                     <h1>Email</h1>
                     <p className="contact-details"><span className='skill-arrow'>➤</span>mandalarpan2014@gmail.com <span className="contact-at">(Recommended)</span></p>
                     <h1>Social</h1>
-                    <p className="contact-details"><span className='skill-arrow'>➤</span>Facebook/Instagram ~ <span className="contact-at">@arpanm.in/@arpanmFB</span></p>
+                    <p className="contact-details"><span className='skill-arrow'>➤</span>Facebook/Instagram ~ <span className="contact-at">@arpanmFB/_objectorientedguy</span></p>
                     <h1>LinkedIn</h1>
                     <p className="contact-details"><span className='skill-arrow'>➤</span>arpanmin <span className="contact-at">(Alwayes active)</span></p>
                     <h1>Address</h1>
