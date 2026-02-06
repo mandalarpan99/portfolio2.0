@@ -57,7 +57,7 @@ export const Home = ()=>{
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.instagram.com/arpanm.in/" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.instagram.com/_objectorientedguy/" target="_blank" rel="noopener noreferrer">
                             <i className="fa-brands fa-instagram"></i>
                             </a>
                         </li>
