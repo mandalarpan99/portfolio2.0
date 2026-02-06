@@ -26,7 +26,7 @@ export const Footer = ()=>{
                                 <a href="https://www.facebook.com/arpanmFB/" target="_blank" rel="noopener noreferrer">
                                     <i class="fa-brands fa-facebook"></i>
                                 </a>
-                                <a href="https://www.instagram.com/arpanm.in/" target="_blank" rel="noopener noreferrer">
+                                <a href="https://www.instagram.com/_objectorientedguy/" target="_blank" rel="noopener noreferrer">
                                     <i class="fa-brands fa-instagram"></i>
                                 </a>
                                 <a href="https://www.linkedin.com/in/arpanmin/" target="_blank" rel="noopener noreferrer">
